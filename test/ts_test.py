@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch, MagicMock
-from ts import Library
+from .ts_test import Library
 
 class TestLibraryAddBook(unittest.TestCase):
     def setUp(self):
